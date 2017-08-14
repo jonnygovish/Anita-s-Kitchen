@@ -1,0 +1,11 @@
+.header {
+  background-image: url("../assets/backgrounds/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:  100%;
+  color: white;
+}
+
+.img{
+  background-position: center;
+}
