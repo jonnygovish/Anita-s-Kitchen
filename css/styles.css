@@ -5,18 +5,22 @@
   background-size:  100%;
   color: white;
 }
+#logo, img{
+  margin: auto;
+}
 #happy-hour{
   text-align: center;
   color: red;
-  padding-bottom:  10px;
-  padding-top: 10px;
-  padding-left: 10px;
+  padding-bottom:  25px;
+  padding-top: 25px;
+  
 }
 #party-time{
   background-color: #F15A29;
-  padding-bottom:  20px;
-  padding-top: 10px;
-  padding-left:
+  padding-bottom:  25px;
+  padding-top: 25px;
+  /*padding-top: 10px;
+  padding-left:*/
   color: white;
   text-align: center;
 }
