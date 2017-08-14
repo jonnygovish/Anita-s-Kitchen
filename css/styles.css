@@ -5,6 +5,21 @@
   background-size:  100%;
   color: white;
 }
+#happy-hour{
+  text-align: center;
+  color: red;
+  padding-bottom:  10px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+#party-time{
+  background-color: #F15A29;
+  padding-bottom:  20px;
+  padding-top: 10px;
+  padding-left:
+  color: white;
+  text-align: center;
+}
 
 #breakfast{
   background-image: url("../assets/foodtop/breakfast.jpg");
@@ -25,6 +40,11 @@
   padding: 25px;
   color: white;
 }
+.section3 {
+  margin: 100px;
+}
 .section4{
   background-image: url("../assets/backgrounds/foodsBg.jpg");
+  background-position: center;
+  height: 50px;
 }
