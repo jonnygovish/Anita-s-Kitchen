@@ -6,6 +6,25 @@
   color: white;
 }
 
-#fastfood1{
-  float: left;
+#breakfast{
+  background-image: url("../assets/foodtop/breakfast.jpg");
+  background-size: 100%;
+  padding: 50px;
+  color: white;
+}
+#lunch{
+  background-image: url('../assets/foodtop/lunch.jpg');
+  background-size: 100%;
+  padding: 25px;
+  color: white;
+}
+#dinner{
+  background-image: url('../assets/foodtop/dinner.jpg');
+  background-image: url('../assets/foodtop/dinner2.jpg');
+  background-size: 100%;
+  padding: 25px;
+  color: white;
+}
+.section4{
+  background-image: url("../assets/backgrounds/foodsBg.jpg");
 }
