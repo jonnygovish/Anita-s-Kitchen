@@ -13,13 +13,15 @@
 </head>
 <body>
   <div class="section1">
-    <div class="header" >
-      <div id="logo">
-        <img src="assets/logoBig.png" alt="main logo">
-      </div>
-      <div id="tagline">
-          <b>We provide The Best Food<br> At The Right Price</b>
-      </div>
+    <div class="header">
+      <center>
+        <div id="logo">
+          <img src="assets/logoBig.png" alt="main logo" align="middle">
+        </div>
+        <div id="tagline">
+          <h4>We provide The Best Food<br> At <strong>The Right Price</strong></h4>
+        </div>
+      </center>
     </div>
   </div>
 
@@ -38,7 +40,6 @@
           <div id="breakfast">
             <p>Breakfast</p>
           </div>
-
         </div>
 
         <div class="col-md-3">
@@ -62,8 +63,10 @@
 
       <div class="col-md-6">
         <div class="fastfood1">
-          <img src="assets/fastFood1.jpg" alt="fast food1">
-          <img src="assets/fastFood2.jpg" alt="fastfood2">
+          <div class="foodphoto">
+            <img src="assets/fastFood1.jpg" alt="fast food1">
+            <img src="assets/fastFood2.jpg" alt="fastfood2">
+          </div>
         </div>
       </div>
 
@@ -79,18 +82,20 @@
 
     <div class="row">
       <div class="col-md-6">
-        <div class="panel panel-default">
-          <h1>Drinks</h1>
-          <h3>We also produce delicious drinks</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <button type="button">View Gallery &rarr;</button>
-        </div>
+          <div id="text">
+            <h1>Drinks</h1>
+            <h3>We also produce delicious drinks</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button type="button">View Gallery &rarr;</button>
+          </div>
       </div>
 
       <div class="col-md-6">
         <div class="drinks-photo">
-          <img src="assets/drink1.jpg" alt="drink1">
-          <img src="assets/drink2.jpg" alt="drink2">
+          <div class="drinks">
+            <img src="assets/drink1.jpg" alt="drink1">
+            <img src="assets/drink2.jpg" alt="drink2">
+          </div>
         </div>
     </div>
   </div>
@@ -98,7 +103,42 @@
   </div>
 
   <div class="section4">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="container">
+      <ul class="nav nav-tabs nav-justified">
+        <li class="active"><a data-toggle="tab" href= "#fastfood">Fast Food</a></li>
+        <li class="active"><a  data-toggle="tab"  href="#drinks">Drinks</a></li>
+        <li class="active"><a  data-toggle="tab" href="#chicken">Chicken</a></li>
+        <li class="active"><a  data-toggle="tab"  href="#rice">Rice</a></li>
+      </ul>
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div  class="carousel-inner">
+              <div class="item active">
+                <img src="assets/fastfood/beefburger.jpg" alt="beef burger">
+                <div class="carousel-caption">
+                  <h4>Beef Burger</h4>
+                </div>
+              </div>
+
+                <div class="item">
+                  <img src="assets/fastfood/chickenBurger.jpg" alt="chicken burger">
+                  <div class="carousel-caption">
+                    <h4>Chicken Burger</h4>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="assets/fastfood/chickenPizza.jpg" alt="chicken pizza">
+                  <div class="carousel-caption">
+                    <h4>Chicken Pizza</h4>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </div>
 
