@@ -10,7 +10,7 @@
 #tagline{
   font-weight: bold;
 }
-@media(min-width: 1050px){
+@media(min-width: 995px){
   .col-md-3{
     padding-left: 0;
     padding-right: 0;
@@ -82,8 +82,23 @@ button{
   background-image: url("../assets/backgrounds/foodsBg.jpg");
   background-position: center;
   height: 600px;
-  opacity: 2;
+  padding: 100px 0;
+  color: #f15a29;
+}
+.nav-tab>li>{
+  color:  #f15a29;
 }
 .container{
   margin:  100px;
+  padding: 10px;
+  color: #f15a29;
+  background-color: white;
+
 }
+.carousel{
+  /*  background: white;*/
+    margin-top: 0px;
+}
+.carousel .item img{
+    margin: 0 auto;
+  }
