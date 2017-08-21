@@ -70,7 +70,7 @@
 }
 
 
-/******* *** 8section 3***********************************************/
+/******* *** section 3***********************************************/
 
 .section3 {
   margin: 100px;
@@ -98,6 +98,11 @@ button {
 
 /*****************section 4**************/
 
+.fastfood {
+  text-align: center;
+  color: #f15a29;
+}
+
 .section4 {
   background-image: url("../assets/backgrounds/foodsBg.jpg");
   background-position: center;
@@ -110,14 +115,10 @@ button {
   color: #f15a29;
 }
 
-.carousel-inner>h3 {
-  text-align: center;
-}
-
 .container {
   margin: 100px;
   padding: 10px;
-  color: #f15a29;
+  /*color: #f15a29;*/
   background-color: white;
 }
 
@@ -132,6 +133,23 @@ button {
 
 
 /****************section5********************************/
+
+.customers {
+  text-align: center;
+}
+
+.customers>h4, .about>h4 {
+  color: #f15a29;
+}
+
+.about {
+  border-left: 2px solid #ddd;
+}
+
+.sec5 {
+  border: 2px solid #ddd;
+  box-shadow: 0px 0px 5px red;
+}
 
 
 /***************section6**************************/
@@ -148,4 +166,12 @@ button {
   background-size: auto;
   height: 300px;
   color: white;
+}
+
+
+/********************section 7*********************************/
+
+.section7 {
+  background-color: #f15a29;
+  height: 200px;
 }
