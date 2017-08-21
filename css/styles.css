@@ -1,34 +1,42 @@
+/******* section1*************/
 
 .header {
   background-image: url("../assets/backgrounds/landing.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size:  cover;
+  background-size: cover;
   padding: 175px;
   color: white;
 }
-#tagline{
+
+#tagline {
   font-weight: bold;
 }
-@media(min-width: 995px){
-  .col-md-3{
+
+
+/************section 2***********/
+
+@media(min-width: 995px) {
+  .col-md-3 {
     padding-left: 0;
     padding-right: 0;
   }
 }
-.col-md-3{
+
+.col-md-3 {
   margin-left: -3px;
 }
-#happy-hour{
+
+#happy-hour {
   text-align: center;
   color: red;
-  padding-bottom:  25px;
+  padding-bottom: 25px;
   padding-top: 25px;
-
 }
-#party-time{
+
+#party-time {
   background-color: #F15A29;
-  padding-bottom:  20px;
+  padding-bottom: 20px;
   padding-top: 19px;
   /*padding-top: 10px;
   padding-left:*/
@@ -36,22 +44,23 @@
   text-align: center;
 }
 
-#breakfast{
+#breakfast {
   background-image: url("../assets/foodtop/breakfast.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   padding: 60px;
-
   color: white;
 }
-#lunch{
+
+#lunch {
   background-image: url('../assets/foodtop/lunch.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   padding: 30px;
   color: white;
 }
-#dinner{
+
+#dinner {
   background-image: url('../assets/foodtop/dinner.jpg');
   background-image: url('../assets/foodtop/dinner2.jpg');
   background-size: 100%;
@@ -60,45 +69,124 @@
   color: white;
 }
 
+
+/******* *** section 3***********************************************/
+
 .section3 {
   margin: 100px;
 }
-#text{
+
+#text {
   text-align: right;
 }
-button{
+
+button {
   color: red;
 }
-.foodphoto , .drinks{
+
+.foodphoto, .drinks {
   padding: 20px;
   border: 2px solid rgba(211, 211, 211, 0.44);
   box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.14);
 }
-.foodphoto>img , .drinks>img{
+
+.foodphoto>img, .drinks>img {
   margin: auto;
   text-align: center;
 }
-.section4{
+
+
+/*****************section 4**************/
+
+.fastfood {
+  text-align: center;
+  color: #f15a29;
+}
+
+.section4 {
   background-image: url("../assets/backgrounds/foodsBg.jpg");
   background-position: center;
   height: 600px;
   padding: 100px 0;
   color: #f15a29;
 }
-.nav-tab>li>{
-  color:  #f15a29;
-}
-.container{
-  margin:  100px;
-  padding: 10px;
-  color: #f15a29;
-  background-color: white;
 
+.nav-tab>li> {
+  color: #f15a29;
 }
-.carousel{
+
+.container {
+  margin: 100px;
+  padding: 10px;
+  /*color: #f15a29;*/
+  background-color: white;
+}
+
+.carousel {
   /*  background: white;*/
-    margin-top: 0px;
+  margin-top: 0px;
 }
-.carousel .item img{
-    margin: 0 auto;
-  }
+
+.carousel .item img {
+  margin: 0 auto;
+}
+
+
+/****************section5********************************/
+
+.customers {
+  text-align: center;
+}
+
+.customers>h4, .about>h4 {
+  color: #f15a29;
+}
+
+.about {
+  border-left: 2px solid #ddd;
+}
+
+.sec5 {
+  border: 2px solid #ddd;
+  box-shadow: 0px 0px 5px lightgray;
+}
+
+
+/***************section6**************************/
+
+.cont-6 {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.section6 {
+  background-image: url("../assets/backgrounds/subscribe.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 300px;
+  color: white;
+}
+
+
+/********************section 7*********************************/
+
+.section7 {
+  background-color: #f15a29;
+  height: 200px;
+    color: white;
+}
+
+form .button{
+    background-color: #f15a29 ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+}
