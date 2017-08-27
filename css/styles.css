@@ -21,9 +21,9 @@
     top: 0;
     left: 0;
     z-index: 1;
-    background-color: rgba(51, 55, 69, 0.80);
+    background-color: #f15a29, opacity: 1;
     overflow: hidden;
-    opacity: 0.8;
+    opacity: 0.5;
     visibility: hidden;
     transition: opacity .35s, visibility .35s;
 }
@@ -115,11 +115,12 @@
     background-repeat: no-repeat;
     padding: 60px;
     color: white;
+    text-align: center
 }
 
 #breakfast:hover {
     opacity: 0.8;
-    color: #f15a29
+    color: #f15a29;
 }
 
 #lunch {
