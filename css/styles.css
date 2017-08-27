@@ -4,15 +4,66 @@
     background-image: url("../assets/backgrounds/landing.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 175px;
+    background-size: 100%;
+    padding:50px;
     color: white;
 }
+/*
+#logo{
+    padding: 175px;
+    z-index: 1;
+}
+*/
 
 #tagline {
     font-weight: bold;
+    margin:px;
 }
-
+.overlay{
+    height: 100%;
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(51,55,69, 0.80);
+    overflow: hidden;
+    opacity: 0.8;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s
+}
+.overlay.open{
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+/*position the content inside the overlay*/
+.overlay-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+/*The navigation links inside the overlay*/
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; 
+}
+/*Position the close button */
+.overlay .closebtn{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+/*navigationlinks hover*/
+.overlay:hover a:hover, .overlay a: focus {
+    color: #f1f1f1;
+}
 
 /************section 2***********/
 
@@ -50,25 +101,40 @@
     background-repeat: no-repeat;
     padding: 60px;
     color: white;
+    
 }
 
+#breakfast:hover{
+    opacity: 0.8;
+    color: #f15a29
+}
 #lunch {
     background-image: url('../assets/foodtop/lunch.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-    padding: 30px;
+    padding: 60px;
     color: white;
+    text-align: center
+}
+#lunch:hover{
+    opacity: 0.8;
+    color: #f15a29;
 }
 
 #dinner {
     background-image: url('../assets/foodtop/dinner.jpg');
-    background-image: url('../assets/foodtop/dinner2.jpg');
-    background-size: 100%;
+    background-size:cover;
     background-repeat: no-repeat;
-    padding: 30px;
+    padding: 60px;
     color: white;
+    text-align: center;
+    
+    
 }
-
+#dinner:hover{
+    opacity: 0.8;
+    color: #f15a29;
+}
 
 /******* *** section 3***********************************************/
 
@@ -132,6 +198,12 @@ button {
 .carousel .item img {
     margin: 0 auto;
 }
+.icon-prev{
+    color: #f15a29;  
+}
+.icon-next{
+    color: #f15a29;
+}
 
 
 /****************section5********************************/
@@ -183,6 +255,11 @@ form .btn {
 }
 form input{
     opacity: 0.5;
+    color: white;
+}
+form input,placeholder{
+    color: white;
+    
 }
 
 
