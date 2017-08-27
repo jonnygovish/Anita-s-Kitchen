@@ -13,5 +13,7 @@ $(document).ready(function () {
         var userEmail =$("#email").val();
         console.log(userEmail);
         alert(userEmail + " has been successfully added to our email list. Thank you.")
+        
+        $("#email").val("");
     })
 });
