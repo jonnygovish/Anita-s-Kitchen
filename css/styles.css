@@ -277,13 +277,16 @@ form .btn {
 }
 
 form input {
-    opacity: 0.5;
-    color: white;
+    opacit
+    color: black;
 }
 
 form input,
 placeholder {
     color: white;
+    background-color: rgba(51, 55, 69, 0.80);
+    opacity: 0.5;
+    
 }
 
 
