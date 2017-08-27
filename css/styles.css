@@ -8,12 +8,6 @@
     padding:50px;
     color: white;
 }
-/*
-#logo{
-    padding: 175px;
-    z-index: 1;
-}
-*/
 
 #tagline {
     font-weight: bold;
@@ -61,7 +55,7 @@
     font-size: 60px;
 }
 /*navigationlinks hover*/
-.overlay:hover a:hover, .overlay a: focus {
+.overlay:hover .open a:hover, .overlay a: focus {
     color: #f1f1f1;
 }
 
